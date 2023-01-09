@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    align-items: center;
+    background-color:rosybrown;
+    text-align: justify;
+    width: fit-content;
+    
+
+    p{
+        color: white;
+        text-transform: capitalize  ;
+        font-size: 18px;
+        text-align: start;
+        padding-bottom: 20px;
+
+        &:last-child{
+            padding-bottom: 0;
+        }
+    }
+
+    h1{
+        font-size: 20px;
+        color: white;
+        padding-bottom: 20px;
+    }
+}
