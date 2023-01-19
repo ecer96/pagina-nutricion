@@ -7,11 +7,11 @@ import { TestimoniosComponent } from './components/testimonios/testimonios.compo
 
 
 const routes: Routes = [
-  {path:'home',component:HomeComponent},
-  {path:'blog',component:BlogComponent},
-  {path:'contacto',component:ContactoComponent},
-  {path:'testimonios',component:TestimoniosComponent},
-  {path:'**',component:HomeComponent}
+  {path:' ${procces.env.PUBLIC_URL}/home',component:HomeComponent},
+  {path:'${procces.env.PUBLIC_URL}/blog',component:BlogComponent},
+  {path:'${procces.env.PUBLIC_URL}/contacto',component:ContactoComponent},
+  {path:'${procces.env.PUBLIC_URL}/testimonios',component:TestimoniosComponent},
+  {path:'${procces.env.PUBLIC_URL}/**',component:HomeComponent}
 ];
 
 @NgModule({
