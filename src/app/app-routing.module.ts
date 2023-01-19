@@ -7,11 +7,11 @@ import { TestimoniosComponent } from './components/testimonios/testimonios.compo
 
 
 const routes: Routes = [
-  {path:'/home',component:HomeComponent},
-  {path:'/blog',component:BlogComponent},
-  {path:'/contacto',component:ContactoComponent},
-  {path:'/testimonios',component:TestimoniosComponent},
-  {path:'/**',component:HomeComponent}
+  {path:'home',component:HomeComponent},
+  {path:'blog',component:BlogComponent},
+  {path:'contacto',component:ContactoComponent},
+  {path:'testimonios',component:TestimoniosComponent},
+  {path:'**',component:HomeComponent}
 ];
 
 @NgModule({
